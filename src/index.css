@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For WebKit browsers (Chrome, Safari, Brave) */
+/* Note: You can use the same styles for Chrome, Safari, and Brave */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  border: 3px solid #f1f1f1;
+}
+
+/* For Firefox */
+/* Note: Firefox uses a different syntax for styling scrollbars */
+/* You may need to adjust this depending on your specific needs */
+/* For example, Firefox doesn't support changing the width of the scrollbar */
+
+/* Specify colors for the track and thumb */
+body{
+scrollbar-color: #f1f1f1 #888;
+
+/* Specify width for the thumb */
+scrollbar-width: thin;
+}
